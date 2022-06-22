@@ -1,0 +1,16 @@
+PODS:
+  - ChatModule (0.1.0)
+
+DEPENDENCIES:
+  - ChatModule (from `../`)
+
+EXTERNAL SOURCES:
+  ChatModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ChatModule: 53b75563dd448369f8b0a7aed15ae6117fd0af41
+
+PODFILE CHECKSUM: 52a9b52ae39088bf4570188914d9b3c48b6d1abd
+
+COCOAPODS: 1.11.3

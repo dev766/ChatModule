@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import ChatModule
 
 class ViewController: UIViewController {
+    
+    let chat = Login()
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        chat.printLog()
     }
 
     override func didReceiveMemoryWarning() {
