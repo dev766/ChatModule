@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'AFNetworking', '~> 2.3'
+  #s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'Firebase/Crashlytics'
   s.dependency 'Firebase/Analytics'
   s.dependency 'Firebase/Messaging'
@@ -46,7 +46,7 @@ Pod::Spec.new do |s|
   s.dependency 'Firebase/Auth'
   s.dependency 'Firebase/Database'
   s.dependency 'Firebase/Storage'
-  s.dependency 'SwiftKeychainWrapper'
+  #s.dependency 'SwiftKeychainWrapper'
   s.dependency 'Firebase/InAppMessaging'
 
 end
