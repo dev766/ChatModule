@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ChatModule'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ChatModule.'
+  s.summary          = 'This is my Chat module to crate chat kit use can use it but its not complet.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-'Test to creating new cocoa pod for the first time'
+'Here we create chat module sdk for easy to use anyone can use this by installing pod '
                        DESC
 
   s.homepage         = 'https://github.com/akash/ChatModule'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'akash' => 'akashpatil338@gmail.com' }
-  s.source           = { :git => 'https://github.com/akash/ChatModule.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/dev766/ChatModule.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
