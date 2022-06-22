@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 'Here we create chat module sdk for easy to use anyone can use this by installing pod '
                        DESC
 
-  s.homepage         = 'https://github.com/akash/ChatModule'
+  s.homepage         = 'https://github.com/dev766/ChatModule.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'akash' => 'akashpatil338@gmail.com' }
