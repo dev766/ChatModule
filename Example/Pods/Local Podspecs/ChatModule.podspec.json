@@ -1,9 +1,9 @@
 {
   "name": "ChatModule",
   "version": "0.1.0",
-  "summary": "A short description of ChatModule.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/akash/ChatModule",
+  "summary": "This is my Chat module to crate chat kit use can use it but its not complet.",
+  "description": "'Here we create chat module sdk for easy to use anyone can use this by installing pod '",
+  "homepage": "https://github.com/dev766/ChatModule.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,21 @@
     "akash": "akashpatil338@gmail.com"
   },
   "source": {
-    "git": "https://github.com/akash/ChatModule.git",
+    "git": "https://github.com/dev766/ChatModule.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "10.0"
   },
-  "source_files": "ChatModule/Classes/**/*"
+  "swift_versions": "5.0",
+  "source_files": "Source/**/*.swift",
+  "dependencies": {
+    "FirebaseCore": [
+
+    ],
+    "Firebase/Auth": [
+      "~> 9.2.0"
+    ]
+  },
+  "swift_version": "5.0"
 }

@@ -6,6 +6,8 @@
 //
 
 import Foundation
+import FirebaseCore
+import FirebaseAuth
 
 
 public class Login{
@@ -16,18 +18,17 @@ public class Login{
         print("In PrintLog")
     }
     
-//    public func signInToFirebase(with email: String,and password: String, onCompletion:@escaping ((Bool)->())) {
-////        let keychain = KeychainSwift()
-//        Auth.auth().signIn(withEmail: email, password: password, completion: { (authResult, error) in
-//
-//            if error != nil {
-//
-//                onCompletion(false)
-//            } else {
-//                guard let firebaseUID = authResult?.user.uid else{
-//                    onCompletion(false)
-//                    return
-//                }
+    public func signInToFirebase(with email: String,and password: String, onCompletion:@escaping ((Bool)->())) {
+        Auth.auth().signIn(withEmail: email, password: password, completion: { (authResult, error) in
+            print("uuid is redy",authResult?.user.uid)
+            if error != nil {
+
+                onCompletion(false)
+            } else {
+                guard let firebaseUID = authResult?.user.uid else{
+                    onCompletion(false)
+                    return
+                }
 //                if Preferences.token == ""
 //                {
 ////                    keychain.set(firebaseUID, forKey: "firebaseUID")
@@ -36,18 +37,18 @@ public class Login{
 //                {
 ////                    keychain.set(firebaseUID, forKey: "firebaseUIDTemp")
 //                }
-//
-////                onCompletion(true)
-//
-//                if let usr = authResult?.user {
-//                    Auth.auth().updateCurrentUser(usr) { (err) in
-//                        if err == nil{
-//                            onCompletion(true)
-//                        }
-//                    }
-//                }
-//            }
-//        })
-//    }
+
+//                onCompletion(true)
+
+                if let usr = authResult?.user {
+                    Auth.auth().updateCurrentUser(usr) { (err) in
+                        if err == nil{
+                            onCompletion(true)
+                        }
+                    }
+                }
+            }
+        })
+    }
 
 }
