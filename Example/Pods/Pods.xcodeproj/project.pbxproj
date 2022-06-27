@@ -67,7 +67,7 @@
 		175390E0383B1EEE553797492B2F9D53 /* NSData+FIRBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 65806545F4E400FFC908F6F2BA870C51 /* NSData+FIRBase64.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		17E7331CF5F8C656798E407AEE858CE0 /* FIRGoogleAuthCredential.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FF8FC20B09186B5A9DF6F40E334053F /* FIRGoogleAuthCredential.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		18AF00352869B9240064ED81 /* HomeStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AF00342869B9240064ED81 /* HomeStoryboard.storyboard */; };
-		18AF00382869BA010064ED81 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AF00372869BA010064ED81 /* HomeViewController.swift */; };
+		18AF003C2869D0780064ED81 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AF003B2869D0780064ED81 /* HomeViewController.swift */; };
 		18E6A630377EAF06D6BBAC8625628835 /* FIRIdentityToolkitRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3923AF0A8D9FC12FCCB8F16003DF1213 /* FIRIdentityToolkitRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		19010BFDDF82EA03A3DF983E259BA8FD /* GULURLSessionDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = B9EC38688430C478383BF6CB10E02713 /* GULURLSessionDataResponse.m */; };
 		1940EBBE774CF4ED1E5DA16E8CA6D45B /* FIRUserInfoImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = 37618EFA08F776A6BC80ACCF032052ED /* FIRUserInfoImpl.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -819,7 +819,7 @@
 		184A33F08AEF38EB4EB3C632694B2ED6 /* GDTCORFlatFileStorage+Promises.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GDTCORFlatFileStorage+Promises.h"; path = "GoogleDataTransport/GDTCORLibrary/Private/GDTCORFlatFileStorage+Promises.h"; sourceTree = "<group>"; };
 		1866FFDD3B9F8C15C0CA61246993D930 /* Pods-ChatModule_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ChatModule_Tests.modulemap"; sourceTree = "<group>"; };
 		18AF00342869B9240064ED81 /* HomeStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeStoryboard.storyboard; sourceTree = "<group>"; };
-		18AF00372869BA010064ED81 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		18AF003B2869D0780064ED81 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = Source/HomeViewController.swift; sourceTree = "<group>"; };
 		19CD53FEAA7ED71D35440AB8A1820537 /* FIRIdentityToolkitRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRIdentityToolkitRequest.m; path = FirebaseAuth/Sources/Backend/FIRIdentityToolkitRequest.m; sourceTree = "<group>"; };
 		19F27CDAC04214FDB33026EC4C7A0887 /* FIRAuthWebUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRAuthWebUtils.m; path = FirebaseAuth/Sources/Utilities/FIRAuthWebUtils.m; sourceTree = "<group>"; };
 		1A6B565151899970EBEDA0F853C9F66B /* GoogleUtilities-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleUtilities-umbrella.h"; sourceTree = "<group>"; };
@@ -1826,7 +1826,7 @@
 			isa = PBXGroup;
 			children = (
 				F90FB59018A66B97838395A1C010DC74 /* Login.swift */,
-				18AF00372869BA010064ED81 /* HomeViewController.swift */,
+				18AF003B2869D0780064ED81 /* HomeViewController.swift */,
 				18AF00332869B6BA0064ED81 /* Resource */,
 				873D8A73A25A380D5F95251AB8E2E3AC /* Pod */,
 				7705742A39B29456166F165D610D4A1A /* Support Files */,
@@ -3417,7 +3417,7 @@
 			files = (
 				14DD306D27C185707B16EBCB63308754 /* ChatModule-dummy.m in Sources */,
 				A526B192CE557AF30F98DB99BA46B4C4 /* Login.swift in Sources */,
-				18AF00382869BA010064ED81 /* HomeViewController.swift in Sources */,
+				18AF003C2869D0780064ED81 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
