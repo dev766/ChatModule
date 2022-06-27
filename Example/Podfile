@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '10.0'
 
 target 'ChatModule_Example' do
-  pod 'FirebaseCore'
+  pod 'FirebaseCore', '~> 9.2.0'
   pod 'Firebase/Auth', '~> 9.2.0'
   pod 'ChatModule', :path => '../'
 

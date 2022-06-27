@@ -1,7 +1,7 @@
 PODS:
   - ChatModule (0.1.0):
     - Firebase/Auth (~> 9.2.0)
-    - FirebaseCore
+    - FirebaseCore (~> 9.2.0)
   - Firebase/Auth (9.2.0):
     - Firebase/CoreOnly
     - FirebaseAuth (~> 9.2.0)
@@ -49,12 +49,12 @@ PODS:
     - nanopb/encode (= 2.30909.0)
   - nanopb/decode (2.30909.0)
   - nanopb/encode (2.30909.0)
-  - PromisesObjC (2.1.0)
+  - PromisesObjC (2.1.1)
 
 DEPENDENCIES:
   - ChatModule (from `../`)
   - Firebase/Auth (~> 9.2.0)
-  - FirebaseCore
+  - FirebaseCore (~> 9.2.0)
 
 SPEC REPOS:
   trunk:
@@ -74,7 +74,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ChatModule: 78d6364585b784167b4d1e63aa8002b3b818a6b5
+  ChatModule: 832aca376982a832a69303d4885e65d7deb6a64f
   Firebase: 4ba896cb8e5105d4b9e247e1c1b6222b548df55a
   FirebaseAuth: 1c574ab64a051dd86dbe7fd5a3f86b58155b3482
   FirebaseCore: 0e27f2a15d8f7b7ef11e7d93e23b1cbab55d748c
@@ -84,8 +84,8 @@ SPEC CHECKSUMS:
   GoogleUtilities: e0913149f6b0625b553d70dae12b49fc62914fd1
   GTMSessionFetcher: 681175626052e03fdde7952f7e9c7a9785719506
   nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
-  PromisesObjC: 99b6f43f9e1044bd87a95a60beff28c2c44ddb72
+  PromisesObjC: ab77feca74fa2823e7af4249b8326368e61014cb
 
-PODFILE CHECKSUM: fb0c56454a689ad22212126f05ce024bc7f3fdfe
+PODFILE CHECKSUM: 1088c390cd112e3efa561c0ee3bceedd4aeb3184
 
 COCOAPODS: 1.11.3
