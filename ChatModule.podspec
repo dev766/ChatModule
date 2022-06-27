@@ -30,8 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '10.0'
   s.swift_version = '5.0'
-  s.source_files = 'Source/*.{h,m,swift,storyboard}'
-
+  s.source_files = 'Source/**/*.swift'
   
   # s.resource_bundles = {
   #   'ChatModule' => ['ChatModule/Assets/*.png']
