@@ -16,8 +16,25 @@
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aqq-mJ-uom">
+                                <rect key="frame" x="100" y="180" width="214" height="31"/>
+                                <color key="backgroundColor" red="0.58188301320000002" green="0.21569153669999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Go"/>
+                                <connections>
+                                    <action selector="GoAction:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="fv3-sL-nAG"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Aqq-mJ-uom" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="4YX-Wu-M0V"/>
+                            <constraint firstItem="Aqq-mJ-uom" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="100" id="mDn-ni-55X"/>
+                            <constraint firstItem="Aqq-mJ-uom" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="136" id="rtt-3b-14i"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
