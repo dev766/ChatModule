@@ -12,7 +12,7 @@ class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        UserDefaults.standard.setValue("firToUserId", forKey: "Username")
+        UserDefaults.standard.set("TEST", forKey: "Key") //setObject
         // Do any additional setup after loading the view.
     }
     
@@ -21,8 +21,8 @@ class HomeViewController: UIViewController {
         CreateUserOnFireBase("akash@test.com", password: "122344") { Success, message in
             if Success{
                 print("------------success")
-                let toUserId =  UserDefaults.standard.value(forKey: "FirToUserId") as? String ?? ""
-                print(toUserId)
+                let toUserId =   UserDefaults.standard.string(forKey: "Key")
+                print(toUserId as Any)
             }else{
                 print("------------error")
             }
